@@ -1,3 +1,6 @@
+//
+// FUNCTIONS
+//
 Number.prototype.toRadians = function() {
     return this * Math.PI / 180;
 }
@@ -21,6 +24,7 @@ function distance(lat1, lat2, lon1, lon2) {
     return d;
 }
 
+//======================================================
 //API for ISS coordinates now
 var url = "http://api.open-notify.org/iss-now.json";
 
