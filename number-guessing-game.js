@@ -55,7 +55,7 @@ function promptNumber() {
                 }
             }
             else {
-                console.log("You did not enter a number between 1 and 100. Program will terminate.");
+                console.log("You did not enter a number between 1 and 100. Let's start over!");
                 return promptNumber();
             }
 
