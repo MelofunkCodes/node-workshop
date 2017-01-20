@@ -30,6 +30,8 @@ function gettheDistance(lat1, lon1, lat2, lon2) {
     var d = R * c;
 
     return Math.floor(d/1000); //returns distance in units [km]
+    //this value is 3000 m LESS than Ziad's promise version
+    //3 km in space scope is peanuts though
 }
 
 //=======DEFINING ASYNC FUNCTION===============
